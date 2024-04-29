@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/log_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Entry"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <!-- You can use a RecyclerView or ListView here to display the log entries -->
+
+</LinearLayout>
